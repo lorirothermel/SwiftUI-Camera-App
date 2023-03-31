@@ -11,6 +11,7 @@
 		DF45E39129D40F1400D08A1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E39029D40F1400D08A1D /* ContentView.swift */; };
 		DF45E39329D40F1600D08A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF45E39229D40F1600D08A1D /* Assets.xcassets */; };
 		DF45E39629D40F1600D08A1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF45E39529D40F1600D08A1D /* Preview Assets.xcassets */; };
+		DF45E39D29D4155100D08A1D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E39C29D4155100D08A1D /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DF45E39029D40F1400D08A1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF45E39229D40F1600D08A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF45E39529D40F1600D08A1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF45E39C29D4155100D08A1D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DF45E38E29D40F1400D08A1D /* SwiftUI_Camera_AppApp.swift */,
 				DF45E39029D40F1400D08A1D /* ContentView.swift */,
+				DF45E39C29D4155100D08A1D /* ImagePicker.swift */,
 				DF45E39229D40F1600D08A1D /* Assets.xcassets */,
 				DF45E39429D40F1600D08A1D /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF45E39D29D4155100D08A1D /* ImagePicker.swift in Sources */,
 				DF45E39129D40F1400D08A1D /* ContentView.swift in Sources */,
 				DF45E38F29D40F1400D08A1D /* SwiftUI_Camera_AppApp.swift in Sources */,
 			);
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow the use of the camera?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow the use of the camera?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
